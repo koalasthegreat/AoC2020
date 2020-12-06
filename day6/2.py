@@ -17,8 +17,6 @@ for group in "".join(sys.stdin.readlines()).split("\n\n"):
                     answers[char] = answers[char] + 1
             num_people += 1
 
-
-    #print(answers, num_people)
     for value in answers.values():
         if value == num_people:
             total += 1
